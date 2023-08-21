@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway: 300,400');
+*{
+    box-sizing: border-box;
+    font-family:Raleway;
+    color:#777;
+}
+html,body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    background: #661C1A ;
+    border-radius: 20px 0px 25px 0px;
+}
+.main-header {
+    background-color:rgba(0,0,0,0.6);
+    background-image:url("Images/HeaderBackground.jpg");
+    /*USes to combine the background-color & background-image */
+    background-blend-mode: multiply;
+    background-size:cover;
+    padding-bottom:30px ;
+    }
